@@ -2,13 +2,13 @@
 
 int main(void) {
 
-	int STDOUT;
+	float STDOUT;
 
 	printf("Please enter a number: ");
-	scanf("%d", &STDOUT);
+	scanf("%f", &STDOUT);
 
 	
-	printf("%d", STDOUT);
+	printf("%f", STDOUT);
 
 	return 0;
 }
